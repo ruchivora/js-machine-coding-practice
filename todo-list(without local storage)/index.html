@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>Todo List</h2>
+    <div class="todo-list-item">
+        <input type="text" id="todo-input" placeholder="Type Here">
+        <button id="todo-button">Add To List</button>
+    </div>
+
+    <div id="todo-list"></div>
+    <template id="todo-item-template">
+        <div class="todo-item">
+            <span class="todo-value"></span>
+            <button class="todo-edit">Edit</button>
+            <button class="todo-remove">Remove</button>
+        </div>
+    </template>
+</body>
+</html>
